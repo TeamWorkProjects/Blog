@@ -1,8 +1,8 @@
 using System;
 
-namespace DataAccessLayer.Models
+namespace BussinesLayer.Objects
 {
-    public class Post
+    public class PostObject
     {
         public int PostId { get; set; }
         public string PostName { get; set; }
